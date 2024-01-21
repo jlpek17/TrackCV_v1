@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrackCV</title>
+  <meta name="description" content="Outil de suivi de candidature">
+  <meta name="author" content="Jean-Louis De Pecker">
+
+  <!-- Open Graph Protocol - these meta tags help to create a preview of the shared web page. -->
+  <!-- Mandatory (4)
+    <meta property="og:title" content="A brief description">
+    <meta property="og:type"  content="website">
+    <meta property="og:url"   content="https://www.mysite">
+    <meta property="og:image" content="image.png">
+    -->
+  <!-- Optional
+    <meta property="og:description" content="a brief descrition">
+    <meta property="og:locale"      content="fr_FR">
+    <meta property="og:site_name"   content="Site name">
+    -->
+
+  <!-- Include framework link here -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- Include icon files here -->
+
+  <!-- Include font files here -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+
+
+  <!-- Include CSS files here (last section of the head element) -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- create a wrapper in order to limit the width of the page to 1440px -->
+  <div class="container-fluid" id="wrapper">
+
+    <header>
+      <nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="/img/TrackCVlogo/logTrackCv_colored.png" alt="Logo" width="210" height="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./concept.html">Concept</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Add your main content here-->
+
+      <section id="hero">
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="card-body" id="cardHeroCard">
+                <h1 class="card-title">Mettez fin au chaos du suivi de vos candidatures</h1>
+                <p class="card-text">TrackCV met à votre disposition une interface de gestion vos candidatures
+                  simplement.
+                  Bientôt en ligne !</p>
+                <a href="#" class="btn btn-primary btnRed">Découvrir le concept</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="/img/heroAccueil.jpg" width="720" height="566" class="img-fluid rounded-start" id="photoHero"
+                alt="photo centrée sur les mains d'une personne en train d'écrire">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="subHero">
+
+        <div class="container-fluid">
+          <h2 class="text-center">Les avantages de notre outils</h2>
+          <div class="row justify-content-between">
+
+            <div class="card subHeroCard">
+              <img src="/img/thumbnail-Suivez_unDRaw.png" width="365" height="300" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-end">Suivez !</h5>
+                <p class="card-text">Des indicateurs pour votre recherche d’emploi.</p>
+                <a href="#" class="btn btn-primary btnBlue">Voir le concept</a>
+              </div>
+            </div>
+
+            <div class="card subHeroCard">
+              <img src="/img/thumbnail-Obtenez_unDRaw.png" width="365" height="300" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-end">Obtenez !</h5>
+                <p class="card-text">Une vision claire de votre parcours de candidat.</p>
+                <a href="#" class="btn btn-primary btnRed">Voir le concept</a>
+              </div>
+            </div>
+
+            <div class="card subHeroCard">
+              <img src="/img/thumb_Controlez_unDRaw.png" width="365" height="300" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-end">Controlez !</h5>
+                <p class="card-text">L’ensemble des actions à effectuer grace aux rappel personalisables.</p>
+                <a href="#" class="btn btn-primary btnBlue">Voir le concept</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+      <!-- Add copyright notices and other footer content here-->
+  <footer></footer>
+
+    <!-- Include JavaScipt files here -->
+    <script>src = "js/scripts"</script>
+    <!-- Include Bootstrap files here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </div>
+</body>
+</html>

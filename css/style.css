@@ -1,0 +1,54 @@
+#wrapper {
+  max-width: 1440px;
+}
+
+.navbar {
+  background-color: #B6C5F2 !important;
+}
+.navbar .container-fluid {
+  padding-right: 2em;
+  padding-left: 2em;
+}
+.navbar .container-fluid .nav-link {
+  font-family: "Caveat", cursive;
+  font-size: 2em;
+  padding-left: 2em;
+}
+
+main #hero {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+main #hero .card-body h1 {
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+}
+main #hero .card-body p {
+  font-size: 24px;
+  font-style: italic;
+}
+main #hero .card-body .btnRed {
+  background: #BF5065;
+}
+main #subHero h2 {
+  font-family: "Caveat", cursive;
+  font-size: 45px;
+  font-style: bold;
+  padding-bottom: 50px;
+}
+main #subHero .subHeroCard {
+  width: 22rem;
+}
+main #subHero .subHeroCard .card-body .card-title {
+  font-size: 48px;
+  font-family: "Caveat", cursive;
+}
+main #subHero .subHeroCard .card-body .card-text {
+  font-family: "Roboto Flex", sans-serif;
+}
+main #subHero .subHeroCard .card-body .btnBlue {
+  background: #0424D9;
+}
+main #subHero .subHeroCard .card-body .btnRed {
+  background: #BF5065;
+}/*# sourceMappingURL=style.css.map */

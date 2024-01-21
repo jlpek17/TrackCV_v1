@@ -1,0 +1,93 @@
+// fonts:
+$mainFonts : 'Roboto Flex', sans-serif;
+$titleFonts : 'Caveat', cursive;
+
+// colors :
+$mainColor : #B6C5F2;
+
+// buttonColor :
+$buttonRed : #BF5065;
+$buttonBlue : #0424D9;
+
+* {}
+
+#wrapper {
+    max-width: 1440px;
+}
+
+// header{}
+
+
+
+.navbar {
+    background-color: $mainColor !important;
+
+    .container-fluid {
+        padding-right: 2em;
+        padding-left: 2em;
+
+        .nav-link {
+            font-family: $titleFonts;
+            font-size: 2em;
+            padding-left: 2em;
+        }
+
+    }
+}
+
+main {
+    #hero {
+        padding-top: 75px;
+        padding-bottom: 50px;
+
+        .card-body {
+            h1 {
+                font-family: $titleFonts;
+                font-size: 60px;
+            }
+
+            p {
+                font-size: 24px;
+                font-style: italic;
+            }
+
+            .btnRed {
+                background: $buttonRed;
+            }
+        }
+    }
+
+    #subHero {
+
+        h2 {
+            font-family: $titleFonts;
+            font-size: 45px;
+            font-style: bold;   
+            padding-bottom: 50px;
+
+        }
+
+        .subHeroCard {
+            width: 22rem;
+
+            .card-body {
+                .card-title {
+                    font-size: 48px;
+                    font-family: $titleFonts;
+                }
+
+                .card-text {
+                    font-family: $mainFonts;
+                }
+
+                .btnBlue {
+                    background: $buttonBlue;
+                }
+
+                .btnRed {
+                    background: $buttonRed;
+                }
+            }
+        }
+    }
+}
