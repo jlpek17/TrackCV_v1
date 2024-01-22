@@ -1,13 +1,13 @@
 #wrapper {
-  max-width: 1440px;
+  max-width: 1920px;
 }
 
 .navbar {
   background-color: #B6C5F2 !important;
 }
 .navbar .container-fluid {
-  padding-right: 2em;
-  padding-left: 2em;
+  padding-right: 10em;
+  padding-left: 10em;
 }
 .navbar .container-fluid .nav-link {
   font-family: "Caveat", cursive;
@@ -19,25 +19,29 @@ main #hero {
   padding-top: 75px;
   padding-bottom: 50px;
 }
-main #hero .card-body h1 {
+main #hero #heroPhoto {
+  background-image: url(/img/heroAccueil.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+main #hero #heroPhoto h1 {
   font-family: "Caveat", cursive;
   font-size: 60px;
 }
-main #hero .card-body p {
+main #hero #heroPhoto p {
   font-size: 24px;
   font-style: italic;
 }
-main #hero .card-body .btnRed {
+main #hero #heroPhoto .btnRed {
   background: #BF5065;
+  max-width: 10em;
 }
 main #subHero h2 {
   font-family: "Caveat", cursive;
   font-size: 45px;
   font-style: bold;
   padding-bottom: 50px;
-}
-main #subHero .subHeroCard {
-  width: 22rem;
 }
 main #subHero .subHeroCard .card-body .card-title {
   font-size: 48px;
@@ -51,4 +55,21 @@ main #subHero .subHeroCard .card-body .btnBlue {
 }
 main #subHero .subHeroCard .card-body .btnRed {
   background: #BF5065;
+}
+
+#about {
+  padding-top: 75px;
+}
+#about h2 {
+  font-family: "Caveat", cursive;
+  font-size: 45px;
+  font-style: bold;
+  padding-bottom: 50px;
+}
+#about p {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+footer {
+  background-color: #B6C5F2;
 }/*# sourceMappingURL=style.css.map */

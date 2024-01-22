@@ -1,6 +1,8 @@
 // fonts:
-$mainFonts : 'Roboto Flex', sans-serif;
-$titleFonts : 'Caveat', cursive;
+$mainFonts : 'Roboto Flex',
+sans-serif;
+$titleFonts : 'Caveat',
+cursive;
 
 // colors :
 $mainColor : #B6C5F2;
@@ -9,10 +11,11 @@ $mainColor : #B6C5F2;
 $buttonRed : #BF5065;
 $buttonBlue : #0424D9;
 
-* {}
+* {
+}
 
 #wrapper {
-    max-width: 1440px;
+    max-width: 1920px;
 }
 
 // header{}
@@ -23,8 +26,8 @@ $buttonBlue : #0424D9;
     background-color: $mainColor !important;
 
     .container-fluid {
-        padding-right: 2em;
-        padding-left: 2em;
+        padding-right: 10em;
+        padding-left: 10em;
 
         .nav-link {
             font-family: $titleFonts;
@@ -40,7 +43,12 @@ main {
         padding-top: 75px;
         padding-bottom: 50px;
 
-        .card-body {
+        #heroPhoto {
+            background-image: url(/img/heroAccueil.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 50vh;
+
             h1 {
                 font-family: $titleFonts;
                 font-size: 60px;
@@ -53,6 +61,7 @@ main {
 
             .btnRed {
                 background: $buttonRed;
+                max-width: 10em;
             }
         }
     }
@@ -62,13 +71,13 @@ main {
         h2 {
             font-family: $titleFonts;
             font-size: 45px;
-            font-style: bold;   
+            font-style: bold;
             padding-bottom: 50px;
 
         }
 
         .subHeroCard {
-            width: 22rem;
+            // width: 25rem;
 
             .card-body {
                 .card-title {
@@ -90,4 +99,23 @@ main {
             }
         }
     }
+}
+
+#about {
+    padding-top: 75px;
+
+    h2 {
+        font-family: $titleFonts;
+        font-size: 45px;
+        font-style: bold;
+        padding-bottom: 50px;
+    }
+        p {
+            font-family: $mainFonts;
+        }
+
+}
+
+footer {
+    background-color: $mainColor;
 }
