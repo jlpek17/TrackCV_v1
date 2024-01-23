@@ -40,28 +40,34 @@ $buttonBlue : #0424D9;
 
 main {
     #hero {
-        padding-top: 75px;
+        padding-top: 50px;
         padding-bottom: 50px;
 
         #heroPhoto {
             background-image: url(/img/heroAccueil.jpg);
             background-position: center;
             background-size: cover;
-            height: 50vh;
+            height: 60vh;
 
             h1 {
                 font-family: $titleFonts;
-                font-size: 60px;
+                font-size: 48px;
+                color: white;
+                margin-left: 20px;
             }
 
             p {
                 font-size: 24px;
                 font-style: italic;
+                color: white;
+                margin-left: 20px;
+
             }
 
             .btnRed {
                 background: $buttonRed;
                 max-width: 10em;
+                margin: 20px
             }
         }
     }
@@ -77,7 +83,14 @@ main {
         }
 
         .subHeroCard {
-            // width: 25rem;
+
+            img {
+                max-width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 25px;
+            }
+            
 
             .card-body {
                 .card-title {
@@ -102,7 +115,8 @@ main {
 }
 
 #about {
-    padding-top: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     h2 {
         font-family: $titleFonts;
@@ -118,4 +132,9 @@ main {
 
 footer {
     background-color: $mainColor;
+    
+        .social {
+            font-size: 50px;
+            padding: 10px;
+    }
 }
