@@ -1,0 +1,150 @@
+// fonts:
+$mainFonts : 'Roboto Flex',
+sans-serif;
+$titleFonts : 'Caveat',
+cursive;
+
+// colors :
+$mainColor : #B6C5F2;
+
+// buttonColor :
+$buttonRed : #BF5065;
+$buttonBlue : #0424D9;
+
+* {
+}
+
+#wrapper {
+    max-width: 1440px;
+}
+
+// header{}
+
+
+
+.navbar {
+    background-color: $mainColor !important;
+
+    .container-fluid {
+        padding-right: 10em;
+        padding-left: 10em;
+
+        .nav-link {
+            font-family: $titleFonts;
+            font-size: 2em;
+            padding-left: 2em;
+        }
+
+    }
+}
+
+main {
+    #hero {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        #heroPhoto {
+            background-image: url(/img/heroAccueil.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 60vh;
+
+            h1 {
+                font-family: $titleFonts;
+                font-size: 48px;
+                color: white;
+                margin-left: 20px;
+            }
+
+            p {
+                font-size: 24px;
+                font-style: italic;
+                color: white;
+                margin-left: 20px;
+
+            }
+
+            .btnRed {
+                background: $buttonRed;
+                max-width: 10em;
+                margin: 20px
+            }
+        }
+    }
+
+    #subHero {
+
+        h2 {
+            font-family: $titleFonts;
+            font-size: 45px;
+            font-style: bold;
+            padding-bottom: 50px;
+
+        }
+
+        .subHeroCard {
+
+            img {
+                max-width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 25px;
+                object-fit: scale-down;
+            }
+            
+
+            .card-body {
+                background-color: #FDFCFA;
+
+                .card-title {
+                    font-size: 48px;
+                    font-family: $titleFonts;
+                }
+
+                .card-text {
+                    font-family: $mainFonts;
+                }
+
+                .btnBlue {
+                    background: $buttonBlue;
+                }
+
+                .btnRed {
+                    background: $buttonRed;
+                }
+            }
+        }
+    }
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: $titleFonts;
+        font-size: 45px;
+        font-style: bold;
+        padding-bottom: 50px;
+    }
+        .card-header {
+            background-color: $;
+        }
+        p {
+            font-family: $mainFonts;
+        }
+
+        .btnBlue {
+            background: $buttonRed;
+        }
+
+}
+
+footer {
+    background-color: $mainColor;
+    
+        .social {
+            font-size: 50px;
+            padding: 10px;
+    }
+}
