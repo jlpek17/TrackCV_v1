@@ -1,5 +1,5 @@
 #wrapper {
-  max-width: 1920px;
+  max-width: 1440px;
 }
 
 .navbar {
@@ -53,6 +53,11 @@ main #subHero .subHeroCard img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+main #subHero .subHeroCard .card-body {
+  background-color: #FDFCFA;
 }
 main #subHero .subHeroCard .card-body .card-title {
   font-size: 48px;
@@ -78,8 +83,14 @@ main #subHero .subHeroCard .card-body .btnRed {
   font-style: bold;
   padding-bottom: 50px;
 }
+#about .card-header {
+  background-color: #B6C5F2;
+}
 #about p {
   font-family: "Roboto Flex", sans-serif;
+}
+#about .btnBlue {
+  background: #BF5065;
 }
 
 footer {

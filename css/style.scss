@@ -15,7 +15,7 @@ $buttonBlue : #0424D9;
 }
 
 #wrapper {
-    max-width: 1920px;
+    max-width: 1440px;
 }
 
 // header{}
@@ -89,10 +89,13 @@ main {
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 25px;
+                object-fit: scale-down;
             }
             
 
             .card-body {
+                background-color: #FDFCFA;
+
                 .card-title {
                     font-size: 48px;
                     font-family: $titleFonts;
@@ -124,8 +127,15 @@ main {
         font-style: bold;
         padding-bottom: 50px;
     }
+        .card-header {
+            background-color: $;
+        }
         p {
             font-family: $mainFonts;
+        }
+
+        .btnBlue {
+            background: $buttonRed;
         }
 
 }
