@@ -29,7 +29,7 @@ $buttonBlue : #0424D9;
 
         .nav-link {
             font-family: $titleFonts;
-            font-size: 2em;
+            font-size: 2.5em;
             padding-left: 2em;
         }
 
@@ -64,7 +64,8 @@ main {
             .btnRed {
                 background: $buttonRed;
                 max-width: 10em;
-                margin: 20px
+                margin: 20px;
+                font-size: 18px;
             }
         }
     }
@@ -100,14 +101,17 @@ main {
 
                 .card-text {
                     font-family: $mainFonts;
+                    font-size: 18px;
                 }
 
                 .btnBlue {
                     background: $buttonBlue;
+                    font-size: 18px;
                 }
 
                 .btnRed {
                     background: $buttonRed;
+                    font-size: 18px;
                 }
             }
         }
@@ -126,15 +130,17 @@ main {
     }
 
     .card-header {
-        background-color: black;
+        background-color: $buttonBlue;
     }
 
     p {
         font-family: $mainFonts;
+        font-size: 18px;
     }
 
     .btnBlue {
         background: $buttonRed;
+        font-size: 18px;
     }
 
 }
@@ -158,9 +164,13 @@ footer {
 
 #concept-hero {
 
-    .arrayTeaser {
+    #arrayTeaser {
         padding-top: 50px;
         padding-bottom: 100px;
+
+        #conceptRightHero {
+            object-fit: fit;
+        }
     }
 }
 
@@ -173,6 +183,7 @@ footer {
 
             li{
                 font-size: 24px;
+                padding:12px;
 
                 i {
                     color: green;
@@ -181,6 +192,7 @@ footer {
         }
         .btnBlue {
             background-color: $buttonBlue;
+            font-size: 18px;
         }
     }
 }
@@ -206,10 +218,17 @@ footer {
             color: white;
             padding-left: 20px;
         }
+
         #contactRightHero {
 
             .btnRed {
                 background-color: $buttonRed;
+                font-size: 18px;
+            }
+
+            label {
+                font-weight: bold;
+                color: white;
             }
         }
     }

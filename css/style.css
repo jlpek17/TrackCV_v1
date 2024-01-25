@@ -12,7 +12,7 @@
 }
 .navbar .container-fluid .nav-link {
   font-family: "Caveat", cursive;
-  font-size: 2em;
+  font-size: 2.5em;
   padding-left: 2em;
 }
 
@@ -41,6 +41,7 @@ main #hero #heroPhoto .btnRed {
   background: #BF5065;
   max-width: 10em;
   margin: 20px;
+  font-size: 18px;
 }
 main #subHero h2 {
   font-family: "Caveat", cursive;
@@ -65,12 +66,15 @@ main #subHero .subHeroCard .card-body .card-title {
 }
 main #subHero .subHeroCard .card-body .card-text {
   font-family: "Roboto Flex", sans-serif;
+  font-size: 18px;
 }
 main #subHero .subHeroCard .card-body .btnBlue {
   background: #0424D9;
+  font-size: 18px;
 }
 main #subHero .subHeroCard .card-body .btnRed {
   background: #BF5065;
+  font-size: 18px;
 }
 
 #about {
@@ -84,13 +88,15 @@ main #subHero .subHeroCard .card-body .btnRed {
   padding-bottom: 50px;
 }
 #about .card-header {
-  background-color: black;
+  background-color: #0424D9;
 }
 #about p {
   font-family: "Roboto Flex", sans-serif;
+  font-size: 18px;
 }
 #about .btnBlue {
   background: #BF5065;
+  font-size: 18px;
 }
 
 footer {
@@ -108,9 +114,13 @@ footer .social {
   max-width: 1440px;
 }
 
-#concept-hero .arrayTeaser {
+#concept-hero #arrayTeaser {
   padding-top: 50px;
   padding-bottom: 100px;
+}
+#concept-hero #arrayTeaser #conceptRightHero {
+  -o-object-fit: fit;
+     object-fit: fit;
 }
 
 #concept-subHero #functionalities ul {
@@ -118,12 +128,14 @@ footer .social {
 }
 #concept-subHero #functionalities ul li {
   font-size: 24px;
+  padding: 12px;
 }
 #concept-subHero #functionalities ul li i {
   color: green;
 }
 #concept-subHero #functionalities .btnBlue {
   background-color: #0424D9;
+  font-size: 18px;
 }
 
 /* CONTACT-WRAPPER 
@@ -145,4 +157,9 @@ footer .social {
 }
 #contact-hero #contactHeroPhoto #contactRightHero .btnRed {
   background-color: #BF5065;
+  font-size: 18px;
+}
+#contact-hero #contactHeroPhoto #contactRightHero label {
+  font-weight: bold;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
