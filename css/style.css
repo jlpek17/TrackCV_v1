@@ -20,7 +20,7 @@ main #hero {
   padding-bottom: 50px;
 }
 main #hero #heroPhoto {
-  background-image: url(/img/heroAccueil.jpg);
+  background-image: url(./img/heroAccueil.jpg);
   background-position: center;
   background-size: cover;
   height: 60vh;
@@ -145,7 +145,7 @@ footer .social {
 }
 
 #contact-hero #contactHeroPhoto {
-  background-image: url(/img/heroContact.jpg);
+  background-image: url(./img/heroContact.jpg);
   background-position: center;
   background-size: cover;
   height: 60vh;
