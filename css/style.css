@@ -4,6 +4,7 @@
 
 .navbar {
   background-color: #B6C5F2 !important;
+  margin-bottom: 50px;
 }
 .navbar .container-fluid {
   padding-right: 10em;
@@ -11,12 +12,11 @@
 }
 .navbar .container-fluid .nav-link {
   font-family: "Caveat", cursive;
-  font-size: 2em;
+  font-size: 2.5em;
   padding-left: 2em;
 }
 
 main #hero {
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 main #hero #heroPhoto {
@@ -41,6 +41,7 @@ main #hero #heroPhoto .btnRed {
   background: #BF5065;
   max-width: 10em;
   margin: 20px;
+  font-size: 18px;
 }
 main #subHero h2 {
   font-family: "Caveat", cursive;
@@ -65,12 +66,15 @@ main #subHero .subHeroCard .card-body .card-title {
 }
 main #subHero .subHeroCard .card-body .card-text {
   font-family: "Roboto Flex", sans-serif;
+  font-size: 18px;
 }
 main #subHero .subHeroCard .card-body .btnBlue {
   background: #0424D9;
+  font-size: 18px;
 }
 main #subHero .subHeroCard .card-body .btnRed {
   background: #BF5065;
+  font-size: 18px;
 }
 
 #about {
@@ -84,19 +88,78 @@ main #subHero .subHeroCard .card-body .btnRed {
   padding-bottom: 50px;
 }
 #about .card-header {
-  background-color: #B6C5F2;
+  background-color: #0424D9;
 }
 #about p {
   font-family: "Roboto Flex", sans-serif;
+  font-size: 18px;
 }
 #about .btnBlue {
   background: #BF5065;
+  font-size: 18px;
 }
 
 footer {
   background-color: #B6C5F2;
+  margin-top: 50px;
 }
 footer .social {
   font-size: 50px;
   padding: 10px;
+}
+
+/* CONCEPT FILES 
+================ */
+#concept-wrapper {
+  max-width: 1440px;
+}
+
+#concept-hero #arrayTeaser {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#concept-hero #arrayTeaser #conceptRightHero {
+  -o-object-fit: fit;
+     object-fit: fit;
+}
+
+#concept-subHero #functionalities ul {
+  list-style: none;
+}
+#concept-subHero #functionalities ul li {
+  font-size: 24px;
+  padding: 12px;
+}
+#concept-subHero #functionalities ul li i {
+  color: green;
+}
+#concept-subHero #functionalities .btnBlue {
+  background-color: #0424D9;
+  font-size: 18px;
+}
+
+/* CONTACT-WRAPPER 
+================== */
+#contact-wrapper {
+  max-width: 1440px;
+}
+
+#contact-hero #contactHeroPhoto {
+  background-image: url(/img/heroContact.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  padding-bottom: 50px;
+}
+#contact-hero #contactHeroPhoto #contactLeftHero {
+  color: white;
+  padding-left: 20px;
+}
+#contact-hero #contactHeroPhoto #contactRightHero .btnRed {
+  background-color: #BF5065;
+  font-size: 18px;
+}
+#contact-hero #contactHeroPhoto #contactRightHero label {
+  font-weight: bold;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
