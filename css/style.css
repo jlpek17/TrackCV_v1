@@ -4,6 +4,7 @@
 
 .navbar {
   background-color: #B6C5F2 !important;
+  margin-bottom: 50px;
 }
 .navbar .container-fluid {
   padding-right: 10em;
@@ -16,7 +17,6 @@
 }
 
 main #hero {
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 main #hero #heroPhoto {
@@ -84,7 +84,7 @@ main #subHero .subHeroCard .card-body .btnRed {
   padding-bottom: 50px;
 }
 #about .card-header {
-  background-color: #B6C5F2;
+  background-color: black;
 }
 #about p {
   font-family: "Roboto Flex", sans-serif;
@@ -95,8 +95,38 @@ main #subHero .subHeroCard .card-body .btnRed {
 
 footer {
   background-color: #B6C5F2;
+  margin-top: 50px;
 }
 footer .social {
   font-size: 50px;
   padding: 10px;
+}
+
+/* CONCEPT FILES 
+================ */
+#concept-wrapper {
+  max-width: 1440px;
+}
+
+#concept-hero .arrayTeaser {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* CONTACT-WRAPPER 
+================== */
+#contact-wrapper {
+  max-width: 1440px;
+}
+
+#contact-hero #contactHeroPhoto {
+  background-image: url(/img/heroContact.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  padding-bottom: 50px;
+}
+#contact-hero #contactHeroPhoto #contactLeftHero {
+  color: white;
+  padding-left: 20px;
 }/*# sourceMappingURL=style.css.map */

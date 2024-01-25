@@ -11,9 +11,6 @@ $mainColor : #B6C5F2;
 $buttonRed : #BF5065;
 $buttonBlue : #0424D9;
 
-* {
-}
-
 #wrapper {
     max-width: 1440px;
 }
@@ -24,7 +21,8 @@ $buttonBlue : #0424D9;
 
 .navbar {
     background-color: $mainColor !important;
-
+    margin-bottom: 50px;
+    
     .container-fluid {
         padding-right: 10em;
         padding-left: 10em;
@@ -40,7 +38,6 @@ $buttonBlue : #0424D9;
 
 main {
     #hero {
-        padding-top: 50px;
         padding-bottom: 50px;
 
         #heroPhoto {
@@ -128,8 +125,9 @@ main {
         padding-bottom: 50px;
     }
         .card-header {
-            background-color: $;
+            background-color: black;
         }
+
         p {
             font-family: $mainFonts;
         }
@@ -142,9 +140,49 @@ main {
 
 footer {
     background-color: $mainColor;
-    
+    margin-top: 50px;
+
         .social {
             font-size: 50px;
             padding: 10px;
     }
 }
+
+/* CONCEPT FILES 
+================ */
+
+#concept-wrapper{
+    max-width: 1440px;
+}
+
+#concept-hero {
+
+    .arrayTeaser {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+}
+
+/* CONTACT-WRAPPER 
+================== */
+
+#contact-wrapper {
+    max-width: 1440px;
+}
+
+#contact-hero {
+
+    #contactHeroPhoto {
+    background-image: url(/img/heroContact.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    padding-bottom: 50px;
+    
+        #contactLeftHero {
+            color:white;
+            padding-left: 20px;
+        }
+    }
+}
+

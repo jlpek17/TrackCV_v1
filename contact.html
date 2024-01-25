@@ -41,7 +41,7 @@
 
 <body>
   <!-- create a wrapper in order to limit the width of the page to 1440px -->
-  <div class="container-fluid" id="wrapper">
+  <div class="container-fluid" id="contact-wrapper">
 
     <header>
       <nav>
@@ -75,6 +75,32 @@
     <main>
       <!-- Add your main content here-->
       <section id="contact-hero">
+        <div class="container-fluid">
+          <div class="row" id="contactHeroPhoto">
+            <div class="col-md-6 d-flex flex-column justify-content-center" id="contactLeftHero">
+              <h2>Interéssé par notre application de gestion de suivi de vos candidature ?</h2>
+              <p>Nous sommes à votre disposition pour toutes questions.</p>
+              <p>Laissez nous un message !</p>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+              <form>
+                <div class="mb-3">
+                  <label for="firstname" class="form-label">Email address</label>
+                  <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="lastname" class="form-label">Password</label>
+                  <input type="text" class="form-control" id="lastname">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="contact-subHero">
