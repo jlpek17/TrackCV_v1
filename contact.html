@@ -76,27 +76,35 @@
       <!-- Add your main content here-->
       <section id="contact-hero">
         <div class="container-fluid">
+
           <div class="row" id="contactHeroPhoto">
+
             <div class="col-md-6 d-flex flex-column justify-content-center" id="contactLeftHero">
               <h2>Interéssé par notre application de gestion de suivi de vos candidature ?</h2>
               <p>Nous sommes à votre disposition pour toutes questions.</p>
               <p>Laissez nous un message !</p>
             </div>
-            <div class="col-md-6 d-flex align-items-center justify-content-center">
+
+            <div class="col-md-6 d-flex align-items-center justify-content-center" id="contactRightHero">
               <form>
+
                 <div class="mb-3">
-                  <label for="firstname" class="form-label">Email address</label>
+                  <label for="firstname" class="form-label">Nom</label>
                   <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp">
                 </div>
+
                 <div class="mb-3">
-                  <label for="lastname" class="form-label">Password</label>
+                  <label for="lastname" class="form-label">Prenom</label>
                   <input type="text" class="form-control" id="lastname">
                 </div>
+
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email address</label>
+                  <label for="email" class="form-label">Adresse e-mail</label>
                   <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
                 </div>
-                <button type="submit" class="btn btn-primary">Envoyer</button>
+
+                <button type="submit" class="btn btn-primary btnRed">Envoyer</button>
+
               </form>
             </div>
           </div>
@@ -114,9 +122,9 @@
           <p class="col-md-5 mb-0 text-body-secondary">© 2024 jlpek17, Inc</p>
           <img class="col-md-2 d-flex" src="/img/TrackCVlogo/logTrackCv_colored.png" alt="Logo Site">
           <ul class="nav col-md-5 justify-content-end">
-            <li class="nav-item"><i class="fa-brands fa-linkedin social"></i></li>
-            <li class="nav-item"><i class="fa-brands fa-square-github social"></i></li>
-            <li class="nav-item"><i class="fa-solid fa-square-envelope social"></i></li>
+            <li class="nav-item" onclick="location.href='https://www.linkedin.com/in/jlpek17/'"><i class="fa-brands fa-linkedin social"></i></li>
+            <li class="nav-item" onclick="location.href='https://github.com/jlpek17'"><i class="fa-brands fa-square-github social"></i></li>
+            <li class="nav-item" onclick="location.href='mailto:jlpek17@gmail.com?subject=Je veux en savoir plus sur TrackCV'"><i class="fa-solid fa-square-envelope social"></i></li>
           </ul>
         </div>
       </div>

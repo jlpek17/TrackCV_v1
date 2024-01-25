@@ -110,14 +110,20 @@ footer .social {
 
 #concept-hero .arrayTeaser {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
-#concept-subHero #functionalities li {
-  text-decoration: none;
+#concept-subHero #functionalities ul {
+  list-style: none;
 }
-#concept-subHero #functionalities li i {
+#concept-subHero #functionalities ul li {
+  font-size: 24px;
+}
+#concept-subHero #functionalities ul li i {
   color: green;
+}
+#concept-subHero #functionalities .btnBlue {
+  background-color: #0424D9;
 }
 
 /* CONTACT-WRAPPER 
@@ -136,4 +142,7 @@ footer .social {
 #contact-hero #contactHeroPhoto #contactLeftHero {
   color: white;
   padding-left: 20px;
+}
+#contact-hero #contactHeroPhoto #contactRightHero .btnRed {
+  background-color: #BF5065;
 }/*# sourceMappingURL=style.css.map */
