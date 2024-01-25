@@ -113,6 +113,13 @@ footer .social {
   padding-bottom: 50px;
 }
 
+#concept-subHero #functionalities li {
+  text-decoration: none;
+}
+#concept-subHero #functionalities li i {
+  color: green;
+}
+
 /* CONTACT-WRAPPER 
 ================== */
 #contact-wrapper {
